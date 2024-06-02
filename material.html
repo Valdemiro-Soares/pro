@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Controle de Dispositivos via Bluetooth</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Controle de Dispositivos via Bluetooth</h1>
+    <button id="connect" class="btn connect">Conectar ao Bluetooth</button>
+    <div class="control-group">
+      <h2>Bomba de Água</h2>
+      <button id="pump-on" class="btn on">Ligar Bomba</button>
+      <button id="pump-off" class="btn off">Desligar Bomba</button>
+    </div>
+    <div class="control-group">
+      <h2>Lâmpada</h2>
+      <button id="lamp-on" class="btn on">Ligar Lâmpada</button>
+      <button id="lamp-off" class="btn off">Desligar Lâmpada</button>
+    </div>
+    <div class="control-group">
+      <h2>Ventoinha</h2>
+      <button id="fan-on" class="btn on">Ligar Ventoinha</button>
+      <button id="fan-off" class="btn off">Desligar Ventoinha</button>
+    </div>
+    <div class="control-group">
+      <h2>Fita de LEDs</h2>
+      <button id="led-strip-on" class="btn on">Ligar Fita de LEDs</button>
+      <button id="led-strip-off" class="btn off">Desligar Fita de LEDs</button>
+    </div>
+    <p id="status" class="status">Status: Desconectado</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
